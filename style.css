@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.character-classes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.character-classes img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.description {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.table-of-contents {
+    background-color: #fff;
+    max-width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-of-contents h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.table-of-contents ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.table-of-contents li {
+    margin-bottom: 5px;
+}
+
+.table-of-contents a {
+    text-decoration: none;
+    color: #333;
+}
+
+.class-section {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 
+}
+.class-section img {
+    display: block;
+    margin: 0 auto 20px; 
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.class-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.class-section strong {
+    font-weight: bold;
+}
+
+.class-section em {
+    font-style: italic;
+}
+
+.class-section ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.class-section ul li {
+    margin-bottom: 5px;
+}
+
+.class-section ul li:before {
+    content: "\2022"; 
+    color: #333; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.table-of-contents li a {
+    transition: font-size 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.table-of-contents:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 2px 10px 20px red;
+
+
+}
+
+.table-of-contents li a:hover {
+    font-size: 1.1em; 
+    color: #ff6600; 
+    box-shadow: 5px 5px 20px 20px lightblue; 
+}
+
+
+.class-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.class-section h2::before {
+    content: "\2022"; 
+    color: #333; 
+    display: inline-block;
+    width: 1em;
+    margin-right: 10px;
+}
+
+.class-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.image0:hover{
+    opacity: 1;
+    box-shadow: 3px 3px 15px 15px blue;
+}
+
+
+.image:hover{
+    opacity: 0.8;
+    box-shadow: 3px 3px 15px 15px orange;
+    transition: 5s box-shadow linear;
+}
+
+.image1:hover{
+    opacity: 0.8;
+    box-shadow: 3px 3px 20px 20px black;
+    transition: 5s box-shadow linear;
+}
+
+.image2:hover{
+    opacity: 0.8;
+    box-shadow: 10px 10px 20px 20px red;
+    transition: 5s box-shadow linear;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #4a7ac1, #1f3a6c);
+}
+
+#warrior {
+    background-color: #f87e09; 
+}
+
+ʼ
+#archer {
+    background-color: #adadad; 
+}
+#mage {
+    background-color: #4e73df;
+    color: white; 
+}
+
+
+#summoner {
+    background-color: #f2d333; 
+}
